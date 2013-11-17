@@ -14,6 +14,7 @@ App.ApplicationController = Ember.ArrayController.extend({
         		secondary: secondary,
         		breed: breed
       		});
+      		frog.save();
 		}
 	}
 })
